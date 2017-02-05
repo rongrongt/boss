@@ -1,0 +1,283 @@
+body{
+	height:100%;
+
+}
+a{
+	text-decoration: none;
+}
+
+.page{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:#e9efef;
+}
+.page .header-set{
+	position: fixed;
+	top:0;
+	height: 50px;
+	width:100%;
+	z-index: 1;
+
+}
+.icon{
+	background-image: url(./bossimg/small.png);
+	background-size: 200px 200px;
+}
+
+.header-set .b-opacity{
+	height: 100%;
+	width: 100%;
+	background-color: #53cac4;
+	opacity: 0.6;
+}
+
+
+.header-set .set-small-img{
+	position: absolute;
+	right: 20px;
+	top:50%;
+	margin-top: -8px;
+	display: block;
+	width: 16px;
+	height: 15px;
+	background-position: 0 -9px;
+}
+
+.page .content-box{
+	position: absolute;
+	width: 100%;
+	top:0px;
+	bottom: 50px;
+	overflow-y: auto;
+
+}
+
+.page .content-box::-webkit-scrollbar{
+	display: none;
+	
+}
+
+
+.content .personal-info{
+	background: #53cac4;
+	padding: 60px 20px 40px;
+	height:70px;
+	color:#fff;
+	font-size: 12px;
+	line-height: 14px;
+}
+.info-state .user-face{
+	float: left;
+	margin-right: 15px;
+	width:68px;
+	height: 68px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.info-state  .state-now{
+	float: left;
+	line-height: 1.5;
+	margin-top: 15px;
+}
+.info-state .user-name{
+	font-size: 14px;
+	
+}
+.personal-info .edit{
+	margin-top: 18px;
+	float: right;
+	color:#fff;
+	font-size: 12px;
+	line-height: 1.5;
+}
+.personal-info .edit:after{
+	content:"";
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	vertical-align: 9px;
+	border: 2px solid #fff;
+	border-bottom-color:transparent;
+	border-left-color:transparent;
+	transform: rotate(45deg); 
+}
+.edit a{
+	display:inline-block;
+	width: 90px;
+	color:#fff;
+	font-size: 12px;
+	
+	text-align: right;
+}
+
+.content .process{
+	background: #fff;
+	height:75px;
+}
+ .process .process-a{
+ 	display: inline-block;
+ 	line-height: 1.5;
+ 	padding-top: 10px;
+ 	width: 49%;
+	font-size: 18px;
+	text-align: center;
+ }
+.process-a .process-n{
+	display: block;
+	color:#000;
+}
+.process-a .process-x{
+	color:#aaa;
+}
+.instrument-box {
+	background: #fff;
+	font-size: 12px;
+}
+.instrument-box .instr-flex{
+	display: flex;
+	margin: 10px 0;
+}
+
+.instrument-box .instr-single{
+	flex:1;
+	box-sizing: border-box;
+	padding: 15px 0;
+	height: 85px;
+	line-height: 2;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	border-right:  1px solid #ddd;
+}
+.instr-single a{
+	color:#000;
+}
+.instrument-box .icon{
+	display: block;
+	width:30px;
+	height: 30px;
+	margin:0 auto;
+}
+.secretary-img{
+	
+	background-position: 3px -30px;
+}
+.resume-img{
+	background-position: 5px -60px;
+}
+.tip-img{
+	background-position: -61px -60px;
+}
+.login-img{
+	background-position: 5px -85px;
+}
+.xx-img{
+	background-position: 5px -110px;
+}
+.mall-img{
+	background-position: 5px -140px;
+}
+.interest-img{
+	background-position: -30px -2px;
+}
+.sc-img{
+	background-position: -25px -28px;
+}
+.has-single{
+	display: flex;
+	height: 60px;
+	font-size: 16px;
+	color:#000;
+}
+.has{
+	background:#fff;
+}
+.has .icon{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+.has-icon-box{
+	flex: 0 0 auto;
+	text-align: center;
+	
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+}
+.has .horn-img{
+	background-position: -28px -59px;
+}
+.has .score-img{
+	background-position: -28px -83px;
+}
+.has .wallet-img{
+	background-position: -61px -83px;
+}
+.has-single .single-cont{
+	flex: 1 1 0;
+	line-height: 60px;
+	border-bottom: 1px solid #ddd;
+
+}
+.single-cont .sin-num{
+	color:#aaa;
+}
+.has-single .single-cont:after{
+	content: "";
+	
+	float: right;
+	margin-top: 22px;
+	margin-right: 20px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #aaa;
+	border-bottom-color:transparent;
+	border-left-color:transparent;
+	transform: rotate(45deg); 
+}
+
+
+
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	width: 100%;
+	height: 45px;
+	background-color:#fff;
+	padding-top:5px ;
+	border-top:1px solid #ddd;
+}
+
+.footer .user-nav{
+	flex: 1;
+	text-align:center;
+}
+.user-nav a{
+	color:#aaa;
+	font-size: 12px;
+
+}
+.user-nav .icon{
+	display: block;
+	width:40px;
+	height:23px;
+	margin:0 auto;
+}
+.user-nav .job-img{
+	background-position: -28px -111px;
+}
+.user-nav .company-img{
+	background-position: -28px -143px;
+}
+.user-nav .mes-img{
+	background-position: -61px -4px;
+}
+.user-nav .mine-img{
+	background-position: -63px -29px;
+}
